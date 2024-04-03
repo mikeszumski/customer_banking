@@ -22,7 +22,7 @@ def create_savings_account(balance, interest_rate, months):
     balance = float(balance)
     interest_rate = float(interest_rate)
 
-    new_acct = Account(balance,interest_rate)
+    new_acct = Account(balance,0.0)
 
     # Calculate interest earned
      # ADD YOUR CODE HERE
